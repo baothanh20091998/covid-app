@@ -2,7 +2,7 @@
 
 Check the cases by comfirmend, deaths, recovered by Country from day to day.
 
-Demo:
+Demo: https://covid-app-chi.vercel.app/
 
 Technology: ReactJS, Redux, Redux Thunk, Bootstrap,....
 
