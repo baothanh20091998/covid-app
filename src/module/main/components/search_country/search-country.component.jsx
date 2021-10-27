@@ -8,7 +8,6 @@ import dateFormat from "dateformat"
 
 export default function SearchCountry(props) {
     const { listCountry, loading, setLoading } = props
-
     const [country, setCountry] = useState("")
     const [startDate, setStartDate] = useState(new Date("2021/10/25"));
     const [endDate, setEndDate] = useState(new Date("2021/10/26"));

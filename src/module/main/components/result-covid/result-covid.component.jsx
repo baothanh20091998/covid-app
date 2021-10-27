@@ -22,9 +22,6 @@ export default function ResultCovid(props) {
             </div>
         </div>
     ))
-
-
-
     return (
         <section className="result__covid">
             <h1>Result</h1>
@@ -50,8 +47,6 @@ export default function ResultCovid(props) {
                                 </div>
                         )
                 }
-
-
             </div>
         </section>
     )

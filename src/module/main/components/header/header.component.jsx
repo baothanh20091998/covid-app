@@ -5,8 +5,6 @@ import "./header.style.scss"
 export default function Header() {
     return (
         <header className="header">
-
-
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <NavLink to="/" exact={true} className="navbar-brand" href="#">Covid App</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

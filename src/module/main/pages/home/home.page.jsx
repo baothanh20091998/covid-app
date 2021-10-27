@@ -16,7 +16,6 @@ export default function Home() {
     const { listCountry } = useSelector(state => state.country)
     const { result } = useSelector(state => state.result)
     const [loading, setLoading] = useState(0)
-    console.log(loading);
     return (
         <>
             <Header></Header>
