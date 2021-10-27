@@ -1,3 +1,11 @@
+# Project Check Covid Cases
+
+Check the cases by comfirmend, deaths, recovered by Country from day to day.
+
+Demo:
+
+Technology: ReactJS, Redux, Redux Thunk, Bootstrap,....
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -42,7 +42,7 @@ export default function ResultCovid(props) {
                         :
                         (
                             renderResult.length === 0 ? (
-                                <p style={{ fontWeight: "700" }}>0 result founded</p>
+                                <p style={{ fontWeight: "600" }}>0 result founded</p>
                             )
                                 :
                                 <div className="accordion" id="accordionExample">
