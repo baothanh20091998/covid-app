@@ -1,0 +1,120 @@
+.contact__info {
+  position: relative;
+  .contact__img {
+    background-image: url("../../img/contact/Suong-may-Sai-Gon-Dam-Van-Thao-3-1598003876.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  .contact__info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    .contact__content {
+      padding: 20px;
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      &:nth-child(2) {
+        width: 500px;
+        .contact__item {
+          background: rgba($color: #00dbff, $alpha: 0.9);
+          height: 130px;
+          margin-bottom: 30px;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          &--img {
+            img {
+              width: 80px;
+              background-color: transparent;
+              color: transparent;
+            }
+          }
+          &--text {
+            margin-left: 10px;
+            .text--title {
+              color: white;
+            }
+            p {
+              font-weight: 700;
+              margin: 0;
+              transition: all 0.5s;
+            }
+            .address {
+              &:hover p {
+                color: #fb4226;
+              }
+            }
+            a {
+              font-weight: 700;
+              &:hover {
+                text-decoration: none;
+              }
+              p {
+                &:hover {
+                  color: #fb4226;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact .contact__info {
+    gap: 50px;
+    iframe {
+      width: 300px;
+    }
+  }
+  .contact .contact__info .contact__content:nth-child(2) {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact .contact__info {
+    gap: 0;
+  }
+  .contact
+    .contact__info
+    .contact__content:nth-child(2)
+    .contact__item--img
+    img {
+    width: 50px;
+  }
+  .contact .contact__info .contact__content:nth-child(2) .contact__item {
+    font-size: 12px;
+  }
+  .contact .contact__info .contact__content:nth-child(2) {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .contact .contact__info {
+    iframe {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  .contact .contact__info .contact__content:nth-child(2) .contact__item {
+    height: unset;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .contact .contact__info {
+    display: block;
+    margin-top: 20px;
+  }
+}

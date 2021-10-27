@@ -1,0 +1,21 @@
+.header {
+  .navbar {
+    a {
+      color: black;
+      margin: 0 5px;
+      transition: all 0.5s;
+      &:hover {
+        text-decoration: none;
+        color: blue;
+        font-weight: 700;
+      }
+    }
+    .active__link {
+      color: blue;
+      font-weight: 700;
+    }
+    .navbar-nav {
+      margin: 0 auto;
+    }
+  }
+}

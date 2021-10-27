@@ -1,0 +1,1 @@
+export const GET_RESULT_COVID = "GET_RESULT_COVID";
